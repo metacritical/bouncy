@@ -1,0 +1,27 @@
+{
+  "name": "ptt",
+  "version": "1.0.0",
+  "description": "Phaser typscript template",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.1",
+    "pug": "^2.0.0-beta10",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/drkarts/ptt.git"
+  },
+  "keywords": [
+    "phaser",
+    "2d"
+  ],
+  "author": "darkarts",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/drkarts/ptt#readme"
+}

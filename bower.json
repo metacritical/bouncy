@@ -1,0 +1,25 @@
+{
+  "name": "ptt",
+  "description": "Phaser typscript template",
+  "main": "index.js",
+  "authors": [
+    "darkarts"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "phaser",
+    "2d"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "^2.6.2"
+  }
+}
