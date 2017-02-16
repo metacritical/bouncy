@@ -1,4 +1,5 @@
 ///<reference path="../../bower_components/phaser/typescript/phaser.d.ts" />
+///import * as Phaser from "../../bower_components/phaser/build/phaser.js"
 var SimpleGame = (function () {
     function SimpleGame() {
         this.game = new Phaser.Game(800, 600, Phaser.AUTO, 'content', { preload: this.preload, create: this.create });

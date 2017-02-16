@@ -9,7 +9,7 @@ class SimpleGame {
     game: Phaser.Game;
 
     preload() {
-        this.game.load.image('logo', '/assets/images/phaser2.png');
+        this.game.load.image('logo', '/assets/images/phaser.io.jpeg');
     }
 
     create() {

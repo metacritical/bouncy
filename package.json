@@ -8,10 +8,16 @@
     "pug": "^2.0.0-beta10",
     "vision": "^4.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "rollup-plugin-typescript": "latest",
+    "rollup-watch": "^3.2.2",
+    "uglifyjs2": "latest"
+  },
   "scripts": {
+    "preinstall": "npm install -g rollup typescript bower uglify-js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "rollup -w -c & node app.js",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
