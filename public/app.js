@@ -1,11 +1,13 @@
+(function () {
+'use strict';
+
 ///<reference path="../../bower_components/phaser/typescript/phaser.d.ts" />
-///import * as Phaser from "../../bower_components/phaser/build/phaser.js"
 var SimpleGame = (function () {
     function SimpleGame() {
-        this.game = new Phaser.Game(800, 600, Phaser.AUTO, 'content', { preload: this.preload, create: this.create });
+        game = new Phaser.Game(800, 600, Phaser.AUTO, 'content', { preload: this.preload, create: this.create });
     }
     SimpleGame.prototype.preload = function () {
-        this.game.load.image('logo', '/assets/images/phaser2.png');
+        this.game.load.image('logo', '/assets/images/phaser.io.jpeg');
     };
     SimpleGame.prototype.create = function () {
         var logo = this.game.add.sprite(this.game.world.centerX, this.game.world.centerY, 'logo');
@@ -16,3 +18,5 @@ var SimpleGame = (function () {
 window.onload = function () {
     var game = new SimpleGame();
 };
+
+}());
