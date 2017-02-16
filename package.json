@@ -14,9 +14,9 @@
     "uglifyjs2": "latest"
   },
   "scripts": {
-    "preinstall": "npm install -g rollup typescript bower uglify-js",
+    "preinstall": "npm install -g rollup typescript bower uglify-js nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "rollup -w -c & node app.js",
+    "start": "rollup -w -c & nodemon app.js",
     "postinstall": "bower install"
   },
   "repository": {
