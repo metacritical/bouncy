@@ -10,5 +10,11 @@
 
     "include" : [
         "./src/ts/**/*"
+    ],
+
+    "files" : [
+        "./src/ts/main.ts",
+        "./src/ts/ball.ts"
     ]
+
 }
