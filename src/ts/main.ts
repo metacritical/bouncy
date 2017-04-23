@@ -1,4 +1,4 @@
-///<reference path="../../bower_components/phaser/typescript/phaser.d.ts" />
+///<reference path="../../bower_components/phaser-ce/typescript/phaser.d.ts" />
 
 import { Ball } from "./ball"
 

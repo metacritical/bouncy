@@ -1,7 +1,7 @@
 (function () {
 'use strict';
 
-///<reference path="../../bower_components/phaser/typescript/phaser.d.ts" />
+///<reference path="../../bower_components/phaser-ce/typescript/phaser.d.ts" />
 var Ball = (function () {
     function Ball(gameInstance) {
         this.game = gameInstance;
@@ -36,7 +36,7 @@ var Ball = (function () {
     return Ball;
 }());
 
-///<reference path="../../bower_components/phaser/typescript/phaser.d.ts" />
+///<reference path="../../bower_components/phaser-ce/typescript/phaser.d.ts" />
 var BounceBall = (function () {
     function BounceBall() {
         this.game = new Phaser.Game(800, 600, Phaser.AUTO, 'content', { preload: this.preload, create: this.create, update: this.update });
