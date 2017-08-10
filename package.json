@@ -4,23 +4,23 @@
   "description": "Phaser typscript template",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.14.1",
-    "pug": "^2.0.0-beta10",
+    "express": "^4.15.4",
+    "pug": "^2.0.0-rc.3",
     "vision": "^4.1.1"
   },
-    "devDependencies": {
-        "rollup-plugin-typescript": "latest",
-        "rollup-watch": "^3.2.2"
-    },
+  "devDependencies": {
+    "rollup-plugin-typescript": "latest",
+    "rollup-watch": "^3.2.2"
+  },
   "scripts": {
-      "preinstall": "sudo npm install -g typescript bower rollup uglify-js nodemon",
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "rollup" : "rollup -c",
-      "watch": "rollup -w -c",
-      "start": "npm run watch & nodemon app.js",
-      "uglify": "uglifyjs bower_components/phaser/build/phaser.js src/js/bundle.js -c --noerr -o public/bundle.min.js",
-      "build": "npm run rollup && npm run uglify",
-      "postinstall": "bower install"
+    "preinstall": "sudo npm install -g typescript bower rollup uglify-js nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c",
+    "watch": "rollup -w -c",
+    "start": "npm run watch & nodemon app.js",
+    "uglify": "uglifyjs bower_components/phaser/build/phaser.js src/js/bundle.js -c --noerr -o public/bundle.min.js",
+    "build": "npm run rollup && npm run uglify",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
